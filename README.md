@@ -19,7 +19,7 @@ pip3 install dotenv
 <br><br><br>
 
 
-### Using yagmail
+## Using yagmail:
 Register on it
 <br>
 **Run in terminal:**
@@ -72,7 +72,7 @@ modified it here :  https://myaccount.google.com/lesssecureapps
 - Notification with ``yagmail`` to the email specified in ``.env``
 
 <br><br><br><b>
-###cMADE BY 
+### MADE BY 
 Pedro Almeida
 in one project per day personal challenge 
 
