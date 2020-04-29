@@ -1,0 +1,79 @@
+# UFP_course_media_so_far
+
+Python web scrapper notifies UFP students by **mail** for new grades release 
+
+
+<br><br><br>
+### Pre-requirements
+``python3``
+
+
+### Installation
+
+Use the package manager [pip3]
+```shell
+pip3 install yagmail
+pip3 install beautifulsoup4 
+pip3 install requests
+pip3 install dotenv
+```
+<br><br><br>
+
+
+### Using yagmail
+Register on it
+<br>
+**Run in terminal:**
+```bash
+
+python3
+>>> import yagmail
+>>> yagmail.register('email1_equal_env.gmail.com', 'yourpass123')
+```
+The email inputed here is the email that will be regstered on yagmail,
+is the mail the script will use to send mails (as server side) to the mail 
+you want to receive the notifications. 
+<br><br>
+### Needed:
+- Modificate your **.env** file for automation
+ (you decide where to receive )
+ ```.env
+EXAMPLE:
+
+// SIUFP authentication
+USER_LOGIN = 32732
+USER_PSWD = ********
+
+// email registered on YAGMAIL used to send the information
+EMAIL_YAGMAIL = email_registered@gmail.pt
+PSWD_YAGMAIL = *********
+
+// this is the mail that will receive the notifications
+EMAIL_RECEIVING_NOTIFICATIONS = email_receiving@gmail.com
+```
+
+<br>
+
+###[PROBLEM]
+#### The gmail registered in yagmail could be protected for less secure applications<br>
+##### you can modify it in gmail settings
+<br><br>
+![](http://url/to/img.png)
+<br><br>
+you can modified here :  https://myaccount.google.com/lesssecureapps
+
+<br><br><br><b>
+## How it works ?
+
+- Fetches your grades from SIUFP (web scrapping)
+- Stores them in a ``.csv`` file
+- Compares the data fetched with the data stored
+- Automates the process several times for detecting new grades 
+- Notification with ``yagmail`` to the email specified in ``.env``
+
+<br><br><br><b>
+###MADE BY 
+Pedro Almeida
+in one project per day personal challenge 
+
+
