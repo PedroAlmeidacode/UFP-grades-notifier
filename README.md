@@ -54,7 +54,7 @@ EMAIL_RECEIVING_NOTIFICATIONS = email_receiving@gmail.com
 
 <br>
 
-###[PROBLEM]
+### [PROBLEM]
 #### The gmail registered in yagmail could be protected for less secure applications<br>
 ##### you can modify it in gmail settings
 <br><br>
