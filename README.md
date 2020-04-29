@@ -34,8 +34,8 @@ is the mail the script will use to send mails (as server side) to the mail
 you want to receive the notifications. 
 <br><br>
 ## Needed:
-- Modificate your **.env** file for automation
- (you decide where to receive )
+- Modificate your **.env** file for automation<br>
+ (you decide where to receive)
  ```.env
 EXAMPLE:
 
