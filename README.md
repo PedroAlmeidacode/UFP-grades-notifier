@@ -72,7 +72,7 @@ modified it here :  https://myaccount.google.com/lesssecureapps
 - Notification with ``yagmail`` to the email specified in ``.env``
 
 <br><br><br><b>
-###MADE BY 
+###cMADE BY 
 Pedro Almeida
 in one project per day personal challenge 
 
