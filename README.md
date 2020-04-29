@@ -3,7 +3,6 @@
 Python web scrapper notifies UFP students by **mail** for new grades release 
 
 
-<br>
 ### Pre-requirements
 ``python3``
 
