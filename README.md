@@ -29,13 +29,15 @@ sudo apt-get update
 sudo apt-get install cron
 ```
 
-**Modify script.sh to your ${PATH}**
+**Modify script.sh to your ${PATH}**<br>
 with *nano or *vim<br>
+```bash
 #!/usr/bin/env bash
 cd ${PATH}/UFP-grades-notifier
 python3 Script.py
+```
 
-**Give permissions to your bash script
+**Give permissions to your bash script**
 ```bash
 chmod +x script.sh
 ```
