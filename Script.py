@@ -95,7 +95,8 @@ def operations(table_notas, path_name, tipo):
                            "\nData: " + str(note[5])
                 yag.send(os.getenv('EMAIL_FOR_SENDING_NOTIFICATIONS'), 'UFP grades notification', mensagem)
 
-                # write_table_to_file(path_name,notas)
+                write_table_to_file(path_name,notas)
+        else: print("Nao existem novas notas submetidas")        
     else:
         write_table_to_file(path_name, notas)
 
