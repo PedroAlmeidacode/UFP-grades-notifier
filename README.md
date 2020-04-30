@@ -28,8 +28,9 @@ Recommended like 5 times a day, otherwise it will freeze the SIUFP servers
 sudo apt-get update
 sudo apt-get install cron
 ```
+<br>
 
-**Modify script.sh to your ${PATH}**<br>
+***Modify [script.sh] to your  ${PATH}***<br>
 with _nano_ or _vim_<br>
 ```bash
 #!/usr/bin/env bash
