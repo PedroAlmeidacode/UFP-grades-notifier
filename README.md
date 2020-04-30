@@ -41,15 +41,15 @@ you want to receive the notifications.
  ```.env
 EXAMPLE:
 
-// SIUFP authentication
+# SIUFP authentication
 USER_LOGIN = 32732
 USER_PSWD = ********
 
-// email registered on YAGMAIL used to send the information
+# email registered on YAGMAIL used to send the information
 EMAIL_YAGMAIL = email_registered@gmail.pt
 PSWD_YAGMAIL = *********
 
-// this is the mail that will receive the notifications
+# this is the mail that will receive the notifications
 EMAIL_RECEIVING_NOTIFICATIONS = email_receiving@gmail.com
 ```
 
