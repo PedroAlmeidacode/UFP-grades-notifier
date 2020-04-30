@@ -19,7 +19,7 @@ pip3 install requests
 pip3 install dotenv
 ```
 <br><br><br>
-<br><br><br>
+
 
 ## Using yagmail:
 Register on it
@@ -62,6 +62,7 @@ modified it here :  https://myaccount.google.com/lesssecureapps
 <br><br>
 ![](https://github.com/PedroAlmeidacode/UFP-grades-notifier/blob/master/Captura%20de%20ecr%C3%A3%20de%202020-04-29%2022-03-45.png)
 <br><br>
+<br><br><br>
 
 ## Using crontab for automation:
 You can define for crontab to run the python script the times you want a day<br>
