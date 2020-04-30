@@ -1,4 +1,5 @@
-# UFP_course_media_so_far
+# UFP_grades_notifier
+
 
 Python web scrapper notifies UFP students by **mail** for new grades release 
 
@@ -74,6 +75,6 @@ modified it here :  https://myaccount.google.com/lesssecureapps
 <br><br><br><b>
 ### MADE BY 
 Pedro Almeida
-in one project per day personal challenge 
+in #OneScriptPerDay personal challenge 
 
 
