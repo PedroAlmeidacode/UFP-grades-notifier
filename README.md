@@ -19,7 +19,51 @@ pip3 install requests
 pip3 install dotenv
 ```
 <br><br><br>
+## Using crontab for automation:
+You can define for crontab to run the python script the times you want a day<br>
+Recommended like 5 times a day, otherwise it will froze the SIUFP servers
+<br>
+**Install crontab**
+```bash
+sudo apt-get update
+sudo apt-get install cron
+```
 
+**Modify script.sh to your ${PATH}**
+with *nano or *vim<br>
+#!/usr/bin/env bash
+cd ${PATH}/UFP-grades-notifier
+python3 Script.py
+
+**Give permissions to your bash script
+```bash
+chmod +x script.sh
+```
+
+**How crontab works**
+
+```bash
+.---------------- minute (0 - 59) 
+|  .------------- hour (0 - 23)
+|  |  .---------- day of month (1 - 31)
+|  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ... 
+|  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7)  OR sun,mon,tue,wed,thu,fri,sat 
+|  |  |  |  |
+*  *  *  *  *  command to be executed
+```
+
+**Setting crontab (example)**
+Enter in terminal:<br>
+```bash
+crontab -e
+```
+Enter in the file:<br>
+```bash
+30 8,12,15,18,20,22 * * *  sh ${PATH}/UFP-grades-notifier/script.sh
+```
+**This example will run the script at 8:30,12:30,15:30,18:30,20:30 and 22:30**
+
+<br><br><br>
 
 ## Using yagmail:
 Register on it
