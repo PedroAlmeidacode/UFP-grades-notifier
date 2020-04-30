@@ -67,7 +67,7 @@ modified it here :  https://myaccount.google.com/lesssecureapps
 <br><br><br><b>
 ## How it works ?
 
-- Fetches your grades from SIUFP (web scrapping)
+- Fetches your grades from SIUFP (https://portal.ufp.pt) with web scrapping
 - Stores them in a ``.csv`` file
 - Compares the data fetched with the data stored
 - Automates the process several times for detecting new grades 
