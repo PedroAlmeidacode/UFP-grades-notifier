@@ -21,8 +21,8 @@ pip3 install dotenv
 <br><br><br>
 ## Using crontab for automation:
 You can define for crontab to run the python script the times you want a day<br>
-Recommended like 5 times a day, otherwise it will froze the SIUFP servers
-<br>
+Recommended like 5 times a day, otherwise it will freeze the SIUFP servers
+<br><br>
 **Install crontab**
 ```bash
 sudo apt-get update
