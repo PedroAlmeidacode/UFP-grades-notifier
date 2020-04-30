@@ -30,7 +30,7 @@ sudo apt-get install cron
 ```
 
 **Modify script.sh to your ${PATH}**<br>
-with *nano or *vim<br>
+with _nano_ or _vim_<br>
 ```bash
 #!/usr/bin/env bash
 cd ${PATH}/UFP-grades-notifier
@@ -54,7 +54,7 @@ chmod +x script.sh
 *  *  *  *  *  command to be executed
 ```
 
-**Setting crontab (example)**
+**Setting crontab (example)**<br>
 Enter in terminal:<br>
 ```bash
 crontab -e
