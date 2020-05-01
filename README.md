@@ -2,6 +2,7 @@
 
 
 Python web scrapper notifies UFP students by **mail** for new grades release 
+__Read the instructions carefully !__
 
 <br><br>
 
