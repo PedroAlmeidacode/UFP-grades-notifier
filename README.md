@@ -3,6 +3,18 @@
 
 Python web scrapper notifies UFP students by **mail** for new grades release 
 
+## Get this email whenever a grade is released
+
+
+
+<br><br><br><b>
+## How it works ?
+- Uses ``crontab`` for testing script multipe times a day (automation)
+- Fetches your grades from SIUFP  ( https://portal.ufp.pt )  with web scrapping
+- Stores them in a ``.csv`` file
+- Compares the data fetched with the data stored 
+- Notification with ``yagmail`` to the email specified in ``.env``
+
 <br>
 
 ### Pre-requirements
@@ -112,14 +124,6 @@ Enter in the file:<br>
 **This example will run the script at 8:30,12:30,15:30,18:30,20:30 and 22:30**
 
 
-<br><br><br><b>
-## How it works ?
-
-- Fetches your grades from SIUFP  ( https://portal.ufp.pt )  with web scrapping
-- Stores them in a ``.csv`` file
-- Compares the data fetched with the data stored
-- Automates the process several times for detecting new grades 
-- Notification with ``yagmail`` to the email specified in ``.env``
 
 <br><br><br><b>
 ### MADE BY 
