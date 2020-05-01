@@ -51,8 +51,8 @@ python3
 >>> import yagmail
 >>> yagmail.register('email1_equal_env.gmail.com', 'yourpass123')
 ```
-The email inputed here is the email that will be regstered on yagmail,
-is the mail the script will use to send mails (as server side) to the mail 
+The email inputed here is the email that will be registered on yagmail,
+the script will use it to send mails (as server side) to the mail 
 you want to receive the notifications. 
 <br><br>
 ## Needed:
