@@ -14,7 +14,7 @@ Python web scrapper notifies UFP students by **mail** for new grades release
 
 
 
-<br><br><br><b>
+<br><br><br><br>
 
 ## How it works ?
 - Uses ``crontab`` for testing script multipe times a day (automation)
