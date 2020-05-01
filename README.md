@@ -6,7 +6,7 @@ __Read the instructions carefully !__
 
 <br><br>
 
-## Get this email whenever a grade is released
+### Get this email whenever a grade is released
 
 <br><br>
 
