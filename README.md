@@ -8,7 +8,7 @@ __Read the instructions carefully !__
 
 ### Get this email whenever a grade is released
 
-<br><br>
+<br>
 
 
 <img src="https://github.com/PedroAlmeidacode/UFP-grades-notifier/blob/master/IMG_2968.PNG" align="center" width="400">
