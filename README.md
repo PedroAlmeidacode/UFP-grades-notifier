@@ -75,7 +75,7 @@ PSWD_YAGMAIL = *********
 EMAIL_RECEIVING_NOTIFICATIONS = email_receiving@gmail.com
 ```
 
-<br>
+<br><br>
 
 ## [PROBLEM]
 #### The gmail registered in yagmail could be protected for less secure applications<br>
