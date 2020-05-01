@@ -9,18 +9,12 @@ Python web scrapper notifies UFP students by **mail** for new grades release
 <br><br>
 
 
-
+<img src="https://github.com/PedroAlmeidacode/UFP-grades-notifier/blob/master/IMG_2968.PNG" align="center" width="400">
 
 
 
 <br><br><br><b>
 
-## How it works ?
-- Uses ``crontab`` for testing script multipe times a day (automation)
-- Fetches your grades from SIUFP  ( https://portal.ufp.pt )  with web scrapping
-- Stores them in a ``.csv`` file
-- Compares the data fetched with the data stored 
-- Notification with ``yagmail`` to the email specified in ``.env``
 
 <br>
 
