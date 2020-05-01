@@ -4,6 +4,9 @@
 Python web scrapper notifies UFP students by **mail** for new grades release 
 
 ## Get this email whenever a grade is released
+<br>
+![](https://github.com/PedroAlmeidacode/UFP-grades-notifier/blob/master/IMG_2968.PNG)
+
 
 
 
