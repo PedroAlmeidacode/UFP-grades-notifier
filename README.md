@@ -1,7 +1,7 @@
 # UFP_grades_notifier
 
 
-Python web scrapper notifies UFP students by **mail** for new grades release 
+Python web scrapper notifies UFP students by **mail** for new grades release <br>
 __Read the instructions carefully !__
 
 <br><br>
