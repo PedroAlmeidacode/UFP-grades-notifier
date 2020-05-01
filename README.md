@@ -18,7 +18,7 @@ Python web scrapper notifies UFP students by **mail** for new grades release
 
 ## How it works ?
 - Uses ``crontab`` for testing script multipe times a day (automation)
-<br>Script:<br>
+<br><br> **Script:** <br>
 - Fetches your grades from SIUFP  ( https://portal.ufp.pt )  with web scrapping
 - Stores them in a ``.csv`` file
 - Compares the data fetched with the data stored 
