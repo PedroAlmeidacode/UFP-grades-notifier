@@ -77,19 +77,9 @@ def operations(table_notas, path_name, tipo):
             for note in list_of_differences:
 
                 mensagem = "Recebida nova nota: " + tipo + \
-                           "\n\nModelo: " + str(note[0]).replace('avaliaÃ§Ã£o', 'avaliação').replace('AvaliaÃ§Ã£o',
-                                                                                                     'Avaliação').replace(
-                    'ContÃ\xadnua', 'Continua').replace('contÃ\xadnua', 'continua').replace('ExcepÃ§Ã£o',
-                                                                                            'Excepção').replace(
-                    'InvestigaÃ§Ã£o', 'Investigação') + \
-                           "\nUnidade curricular: " + str(note[1]).replace('MultimÃ©dia', 'Multimédia').replace(
-                    'InvestigaÃ§Ã£o', 'Investigação').replace('ProgramaÃ§Ã£o', 'Programação').replace('LaboratÃ³rio',
-                                                                                                      'Laboratório') + \
-                           "\nElemento: " + str(note[2]).replace('1Âº', '1º').replace('2Âº', '2º').replace('3Âº',
-                                                                                                           '3º').replace(
-                    'TeÃ³rico-PrÃ¡tica', 'Teorico-Prática').replace('TeÃ³rico', 'Teorico').replace('prÃ¡tica',
-                                                                                                   'prática').replace(
-                    'PrÃ¡tica', 'Prática').replace('prÃ¡tico', 'prático').replace('Ã¢mbito', 'Âmbito') + \
+                           "\n\nModelo: " + str(note[0]).replace('avaliaÃ§Ã£o', 'avaliação').replace('AvaliaÃ§Ã£o','Avaliação').replace('ContÃ\xadnua', 'Continua').replace('contÃ\xadnua', 'continua').replace('ExcepÃ§Ã£o','Excepção').replace('InvestigaÃ§Ã£o', 'Investigação') + \
+                           "\nUnidade Curricular: " + str(note[1]).replace('MultimÃ©dia', 'Multimédia').replace('InvestigaÃ§Ã£o', 'Investigação').replace('ProgramaÃ§Ã£o', 'Programação').replace('LaboratÃ³rio','Laboratório') + \
+                           "\nElemento: " + str(note[2]).replace('1Âº', '1º').replace('2Âº', '2º').replace('3Âº','3º').replace('TeÃ³rico-PrÃ¡tica', 'Teorico-Prática').replace('TeÃ³rico', 'Teorico').replace('prÃ¡tica','prática').replace('PrÃ¡tica', 'Prática').replace('prÃ¡tico', 'prático').replace('Ã¢mbito', 'Âmbito').replace('ProgramaÃ§Ã£o', 'Programação').replace('FrequÃªncia', 'Frequência') + \
                            "\nNota: " + str(note[3]) + \
                            "\nLancado por: " + str(note[4]).replace('JosÃ©', 'José') + \
                            "\nData: " + str(note[5])
