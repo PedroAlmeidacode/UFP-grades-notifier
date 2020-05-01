@@ -11,7 +11,7 @@ __Read the instructions carefully !__
 <br>
 
 
-<img src="https://github.com/PedroAlmeidacode/UFP-grades-notifier/blob/master/IMG_2968.PNG"  border="1px" align="center" width="400">
+<img style='border:1px solid #000000' src="https://github.com/PedroAlmeidacode/UFP-grades-notifier/blob/master/IMG_2968.PNG"  width="400">
 
 
 
